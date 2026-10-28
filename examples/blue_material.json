@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "blue-001",
+  "operation": "create_material",
+  "asset_path": "/Game/ChatGPT/M_Blue_001",
+  "nodes": [
+    {
+      "id": "color",
+      "type": "Constant3Vector",
+      "properties": {
+        "constant": [
+          0.02,
+          0.15,
+          0.8,
+          1
+        ]
+      },
+      "position": [
+        -400,
+        0
+      ]
+    },
+    {
+      "id": "rough",
+      "type": "Constant",
+      "properties": {
+        "r": 0.35
+      },
+      "position": [
+        -400,
+        200
+      ]
+    }
+  ],
+  "links": [],
+  "outputs": {
+    "BaseColor": {
+      "node": "color"
+    },
+    "Roughness": {
+      "node": "rough"
+    }
+  }
+}

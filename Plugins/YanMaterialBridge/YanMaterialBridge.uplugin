@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Yan Material Bridge",
+  "Description": "Editor-only allowlisted JSON material executor",
+  "Category": "Editor",
+  "CanContainContent": true,
+  "Modules": [
+    {
+      "Name": "YanMaterialBridge",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    }
+  ]
+}
